@@ -49,10 +49,11 @@
         app:layout_constraintStart_toEndOf="@+id/Play"
         app:layout_constraintTop_toTopOf="@+id/backgroundImage"
         app:layout_constraintVertical_bias="0.771"
-        tools:ignore="MissingConstraints,NotSibling" />
+        tools:ignore="MissingConstraints,NotSibling,UnknownId" />
+
 
     <Button
-        android:id="@+id/Play"
+        android:id="@+id/GameActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
@@ -62,6 +63,7 @@
         app:layout_constraintStart_toStartOf="@+id/backgroundImage"
         app:layout_constraintTop_toTopOf="@+id/backgroundImage"
         app:layout_constraintVertical_bias="0.752"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+     />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

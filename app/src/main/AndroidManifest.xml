@@ -22,9 +22,9 @@
             insert your own AdMob app ID in quotes, as shown below.
             Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713
         -->
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-9716145224890446~5181986010"/>
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.ads.Tubin!"-->
+<!--            android:value="ca-app-pub-9716145224890446~5181986010" />-->
 
         <activity
             android:name=".MainActivity2"
@@ -34,12 +34,17 @@
             android:name=".HS"
             android:exported="false"
             android:label="HS" />
-        <!-- Include the AdActivity configChanges and theme. -->
-        <activity
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+        <activity android:name=".GameActivity"
             android:exported="false"
-            android:theme="@android:style/Theme.Translucent" />
+            android:label="GameActivity" />
+        <activity android:name=".GameView"
+            android:exported="false"
+            android:label="GameActivity"/>
+<!--        <activity-->
+<!--            android:name="com.google.android.gms.ads.AdActivity"-->
+<!--            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"-->
+<!--            android:exported="false"-->
+<!--            android:theme="@android:style/Theme.Translucent" />-->
         <activity
             android:name=".MainActivity"
             android:exported="true">
