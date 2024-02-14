@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Tubin"
+rootProject.name = "Tobin"
 include(":app")
  
