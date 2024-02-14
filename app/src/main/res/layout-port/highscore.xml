@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <!--    <com.google.android.gms.ads.AdView-->
+    <!--        xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+    <!--        android:id="@+id/adView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        ads:adUnitId="ca-app-pub-3940256099942544~3347511713"-->
+    <!--        ads:adSize="BANNER"/>-->
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/highscore"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="584dp" />
+
+
+    <ImageButton
+        android:id="@+id/close"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/close"
+        android:text="Close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="134dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="668dp"
+        android:ems="10"
+        android:inputType="time"
+        android:shadowColor="@android:color/black"
+        android:textColorHighlight="@color/cardview_light_background"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/HS"
+        android:layout_width="282dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="324dp"
+        android:background="#00FF5733"
+        android:text="High Score"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@color/cardview_light_background"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
